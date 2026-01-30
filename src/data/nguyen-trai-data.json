@@ -1,65 +1,65 @@
 {
   "hero": {
     "title": "Nguyễn Trãi",
-    "subtitle": "Great Thinker, Strategist, and Cultural Figure of Vietnam",
+    "subtitle": "Danh nhân văn hóa, nhà tư tưởng và chiến lược gia kiệt xuất của Việt Nam",
     "years": "1380–1442",
-    "intro": "A brilliant mind who shaped Vietnamese independence, political philosophy, and literary tradition through wisdom, strategy, and unwavering dedication to the people."
+    "intro": "Một trí tuệ lớn góp phần định hình nền độc lập dân tộc, tư tưởng trị quốc và truyền thống văn chương Việt Nam bằng sự minh triết, mưu lược và tấm lòng vì dân."
   },
   "timeline": [
     {
       "id": 1,
       "year": 1380,
-      "title": "Birth and Family",
-      "description": "Born into a scholarly family in Thăng Long (modern-day Hanoi). His father, Nguyễn Phi Khanh, was a mandarin. Raised with Confucian education and deep moral values.",
+      "title": "Sinh ra và gia đình",
+      "description": "Sinh trong gia đình khoa bảng ở Thăng Long (Hà Nội ngày nay). Cha là Nguyễn Phi Khanh, từng làm quan. Từ nhỏ được nuôi dưỡng trong nền Nho học và các giá trị đạo đức.",
       "category": "early"
     },
     {
       "id": 2,
       "year": 1400,
-      "title": "Education & Early Career",
-      "description": "Excelled in classical studies and passed the imperial examinations. Served briefly under the Trần dynasty before the Ming occupation of Vietnam.",
+      "title": "Học tập và bước đầu làm quan",
+      "description": "Thông minh, tinh thông kinh sử và đỗ đạt. Từng tham gia việc nước trong giai đoạn biến động trước và trong thời kỳ nhà Minh xâm lược.",
       "category": "early"
     },
     {
       "id": 3,
       "year": 1418,
-      "title": "Joining Lê Lợi",
-      "description": "Left his position to join Lê Lợi's resistance movement in Lam Sơn. Became chief strategist and advisor, using his intellect to guide the uprising.",
+      "title": "Theo Lê Lợi khởi nghĩa Lam Sơn",
+      "description": "Rời bỏ con đường quan lộ để đi theo Lê Lợi, tham gia khởi nghĩa Lam Sơn. Trở thành mưu sĩ và cố vấn chủ chốt, góp phần hoạch định chiến lược cho cuộc kháng chiến.",
       "category": "resistance"
     },
     {
       "id": 4,
       "year": 1427,
-      "title": "Victory at Chi Lăng",
-      "description": "Strategic brilliance led to the decisive victory over Ming forces. Vietnam regained independence after 20 years of occupation.",
+      "title": "Thắng lợi quyết định (Chi Lăng – Xương Giang)",
+      "description": "Với sách lược đúng đắn và cách đánh mưu trí, nghĩa quân giành thắng lợi quyết định trước quân Minh, chấm dứt hơn 20 năm đô hộ, mở đường cho độc lập.",
       "category": "resistance"
     },
     {
       "id": 5,
       "year": 1428,
-      "title": "Bình Ngô Đại Cáo",
-      "description": "Composed the Great Proclamation upon the Pacification of the Wu, a masterpiece declaring Vietnamese sovereignty and moral justification for independence.",
+      "title": "Soạn “Bình Ngô đại cáo”",
+      "description": "Thay mặt triều đình, Nguyễn Trãi thảo “Bình Ngô đại cáo” – áng văn chính luận bất hủ khẳng định chủ quyền dân tộc và chính nghĩa của cuộc kháng chiến.",
       "category": "literary"
     },
     {
       "id": 6,
       "year": 1430,
-      "title": "Political Reforms",
-      "description": "Advised Emperor Lê Thái Tổ on governance reforms emphasizing humanism, justice, and the principle 'the people are the foundation' (Lấy dân làm gốc).",
+      "title": "Tư tưởng trị quốc và cải cách",
+      "description": "Tham gia hoạch định chính sách dưới thời Lê Thái Tổ, nhấn mạnh tư tưởng nhân nghĩa, công bằng, và nguyên lý “lấy dân làm gốc”.",
       "category": "governance"
     },
     {
       "id": 7,
       "year": 1442,
-      "title": "Lệ Chi Viên Tragedy",
-      "description": "Falsely accused of regicide following Emperor Lê Thái Tông's death. Executed along with three generations of his family in one of Vietnam's greatest injustices.",
+      "title": "Bi kịch Lệ Chi Viên",
+      "description": "Sau cái chết đột ngột của vua Lê Thái Tông, Nguyễn Trãi bị vu cáo mưu sát. Ông và ba họ bị xử án oan – một trong những vụ án bi thảm nhất lịch sử.",
       "category": "tragedy"
     },
     {
       "id": 8,
       "year": 1464,
-      "title": "Historical Vindication",
-      "description": "Posthumously exonerated by Emperor Lê Thánh Tông, who recognized the false accusations and restored his honor and legacy.",
+      "title": "Được minh oan và phục hồi danh dự",
+      "description": "Dưới thời vua Lê Thánh Tông, vụ án được xem xét lại. Nguyễn Trãi được minh oan, danh dự được phục hồi, tác phẩm được sưu tầm và trân trọng.",
       "category": "legacy"
     }
   ],
@@ -69,153 +69,153 @@
       "name": "Lam Sơn",
       "region": "Thanh Hóa",
       "coordinates": { "lat": 19.8, "lng": 105.3 },
-      "description": "Birthplace of the Lam Sơn uprising. Where Nguyễn Trãi joined Lê Lợi's resistance movement in 1418.",
-      "significance": "Strategic base for Vietnamese independence movement"
+      "description": "Căn cứ của khởi nghĩa Lam Sơn, nơi Nguyễn Trãi theo Lê Lợi từ năm 1418.",
+      "significance": "Trung tâm chiến lược của phong trào giành độc lập"
     },
     {
       "id": "thang-long",
       "name": "Thăng Long (Đông Quan)",
-      "region": "Hanoi",
+      "region": "Hà Nội",
       "coordinates": { "lat": 21.03, "lng": 105.85 },
-      "description": "Capital city where Nguyễn Trãi was born and later served as chief advisor to the emperor.",
-      "significance": "Center of political and cultural life"
+      "description": "Kinh đô, nơi Nguyễn Trãi sinh ra và cũng là trung tâm chính trị – văn hóa quan trọng trong cuộc đời ông.",
+      "significance": "Trung tâm chính trị và văn hóa"
     },
     {
       "id": "chi-lang",
       "name": "Chi Lăng",
       "region": "Lạng Sơn",
       "coordinates": { "lat": 21.6, "lng": 106.6 },
-      "description": "Site of the decisive battle in 1427 where Vietnamese forces defeated the Ming army.",
-      "significance": "Victory that secured independence"
+      "description": "Địa danh gắn với chiến thắng lớn năm 1427, góp phần quyết định vào việc đánh bại quân Minh.",
+      "significance": "Chiến thắng mở ra độc lập"
     },
     {
       "id": "con-son",
       "name": "Côn Sơn",
       "region": "Hải Dương",
       "coordinates": { "lat": 20.8, "lng": 106.5 },
-      "description": "Mountain retreat where Nguyễn Trãi composed poetry and philosophical writings.",
-      "significance": "Literary and spiritual sanctuary"
+      "description": "Chốn ẩn cư và sáng tác, nơi Nguyễn Trãi để lại nhiều tác phẩm thơ văn và suy tư triết lý.",
+      "significance": "Không gian văn hóa – tâm linh và sáng tác"
     },
     {
       "id": "le-chi-vien",
       "name": "Lệ Chi Viên",
       "region": "Thanh Hóa",
       "coordinates": { "lat": 19.9, "lng": 105.4 },
-      "description": "Imperial garden where Emperor Lê Thái Tông died unexpectedly in 1442, leading to false accusations.",
-      "significance": "Site of historical tragedy"
+      "description": "Nơi vua Lê Thái Tông băng hà năm 1442, dẫn đến vụ án oan chấn động lịch sử.",
+      "significance": "Địa điểm gắn với thảm án lịch sử"
     }
   ],
   "ideology": [
     {
       "id": "humanism",
-      "title": "Humanism & Compassion",
+      "title": "Nhân nghĩa và lòng thương dân",
       "icon": "heart",
-      "description": "Believed in treating people with kindness and respect, opposing harsh punishments and advocating for moral governance.",
-      "quote": "Treat the people as you would treat an infant."
+      "description": "Đề cao tinh thần nhân nghĩa, lấy khoan dung và đạo lý làm nền tảng trị nước; phản đối hình phạt hà khắc và chủ trương an dân.",
+      "quote": "Thương dân như thương con đỏ."
     },
     {
       "id": "people-foundation",
-      "title": "People as Foundation",
+      "title": "Lấy dân làm gốc",
       "icon": "users",
-      "description": "Core principle 'Lấy dân làm gốc' - the people are the root of the nation. Good governance must serve the people's welfare.",
-      "quote": "The people are the foundation of the nation; when the foundation is stable, the nation is at peace."
+      "description": "Tư tưởng cốt lõi: quốc gia vững bền khi đời sống nhân dân được chăm lo. Người làm chính sự phải vì dân, biết nghe dân.",
+      "quote": "Dân là gốc của nước, gốc vững thì nước yên."
     },
     {
       "id": "strategic-thinking",
-      "title": "Strategic Wisdom",
+      "title": "Mưu lược và trí tuệ chiến lược",
       "icon": "brain",
-      "description": "Masterful military strategist who preferred intelligent tactics over brute force, minimizing casualties.",
-      "quote": "Use wisdom to overcome strength; use righteousness to overcome violence."
+      "description": "Ưu tiên kế sách thông minh, biết dùng thế – dùng thời, hạn chế tổn thất, lấy chính nghĩa để thu phục lòng người.",
+      "quote": "Lấy trí thắng lực, lấy nhân nghĩa thắng hung tàn."
     },
     {
       "id": "moral-governance",
-      "title": "Moral Governance",
+      "title": "Trị nước bằng đức và công bằng",
       "icon": "scale",
-      "description": "Emphasized virtue and justice in leadership. Leaders must earn respect through moral example, not fear.",
-      "quote": "A ruler who governs by virtue is like the North Star; it remains in place while all other stars revolve around it."
+      "description": "Nhấn mạnh vai trò của đạo đức và công lý trong lãnh đạo. Người đứng đầu phải làm gương, không cai trị bằng sợ hãi.",
+      "quote": "Lấy đức mà trị thì người theo về, lấy hình mà trị thì người chỉ sợ."
     },
     {
       "id": "cultural-identity",
-      "title": "Cultural Pride",
+      "title": "Tự hào và bản sắc văn hóa",
       "icon": "flag",
-      "description": "Championed Vietnamese language, literature, and identity. Wrote in both classical Chinese and Nôm script.",
-      "quote": "Our land has its own mountains and rivers, its own customs and traditions."
+      "description": "Khẳng định bản sắc Việt, trân trọng phong tục, non sông bờ cõi; đóng góp lớn cho văn hóa và ý thức độc lập dân tộc.",
+      "quote": "Núi sông bờ cõi đã chia, phong tục Bắc Nam cũng khác."
     },
     {
       "id": "literary-excellence",
-      "title": "Literary Mastery",
+      "title": "Tài năng văn chương",
       "icon": "bookOpen",
-      "description": "Poet and scholar whose works combined aesthetic beauty with political vision, influencing generations.",
-      "quote": "Words must carry both beauty and truth."
+      "description": "Thơ văn kết hợp vẻ đẹp nghệ thuật với tư tưởng chính trị – nhân sinh, để lại ảnh hưởng sâu rộng cho nhiều thế hệ.",
+      "quote": "Văn phải có tình, có lý, có ích cho đời."
     }
   ],
   "works": [
     {
       "id": "binh-ngo-dai-cao",
       "title": "Bình Ngô Đại Cáo",
-      "subtitle": "Great Proclamation upon the Pacification of the Wu",
+      "subtitle": "Tuyên ngôn độc lập của thời Lê sơ",
       "year": 1428,
-      "description": "A literary and political masterpiece declaring Vietnam's independence from Ming China. Written in classical Chinese with powerful rhetoric, it justified the resistance and affirmed Vietnamese sovereignty.",
-      "importance": "Recognized by UNESCO as a world documentary heritage. One of the most important texts in Vietnamese history.",
-      "themes": ["Independence", "Sovereignty", "Moral justification", "National identity"]
+      "description": "Áng văn chính luận bất hủ tuyên bố chiến thắng và khẳng định nền độc lập của Đại Việt. Tác phẩm nêu rõ chính nghĩa, tư tưởng nhân nghĩa và ý thức chủ quyền dân tộc.",
+      "importance": "Một trong những văn bản quan trọng nhất của lịch sử Việt Nam; được đánh giá cao về tư tưởng và giá trị văn chương.",
+      "themes": ["Độc lập", "Chủ quyền", "Chính nghĩa", "Bản sắc dân tộc"]
     },
     {
       "id": "quoc-am-thi-tap",
       "title": "Quốc Âm Thi Tập",
-      "subtitle": "Collection of Vernacular Poetry",
-      "year": "1430s",
-      "description": "Poetry written in Chữ Nôm (Vietnamese script), making literature accessible to common people. Combined personal emotion with social commentary.",
-      "importance": "Pioneering work in Vietnamese vernacular literature, elevating the status of the national language.",
-      "themes": ["Nature", "Human emotion", "Social commentary", "Moral philosophy"]
+      "subtitle": "Tập thơ chữ Nôm",
+      "year": "Những năm 1430",
+      "description": "Tập thơ viết bằng chữ Nôm, góp phần nâng tầm tiếng Việt trong văn chương. Nội dung giàu cảm xúc, gắn với thiên nhiên và đời sống, đồng thời hàm chứa suy tư đạo lý.",
+      "importance": "Tác phẩm tiêu biểu của văn học chữ Nôm, có ý nghĩa quan trọng trong tiến trình phát triển văn học dân tộc.",
+      "themes": ["Thiên nhiên", "Tình cảm", "Đời sống", "Triết lý – đạo lý"]
     },
     {
       "id": "uc-trai-thi-tap",
       "title": "Ức Trai Thi Tập",
-      "subtitle": "Collection of Ức Trai's Poetry",
-      "year": "1430s-1440s",
-      "description": "Classical Chinese poetry exploring themes of governance, ethics, nature, and personal reflection. Demonstrates mastery of literary form.",
-      "importance": "Exemplifies the fusion of Confucian philosophy with Vietnamese cultural sensibility.",
-      "themes": ["Governance", "Ethics", "Nature", "Personal reflection"]
+      "subtitle": "Tập thơ của Ức Trai",
+      "year": "Những năm 1430–1440",
+      "description": "Tập thơ chữ Hán thể hiện chiều sâu trí tuệ và nhân cách, bàn về đạo làm người, việc nước, nỗi niềm thời thế và những rung cảm trước thiên nhiên.",
+      "importance": "Thể hiện sự kết hợp giữa tư tưởng Nho giáo và tâm hồn Việt, giàu giá trị nghệ thuật và tư tưởng.",
+      "themes": ["Việc nước", "Đạo lý", "Thiên nhiên", "Tự sự – chiêm nghiệm"]
     }
   ],
   "legacy": {
     "categories": [
       {
         "id": "education",
-        "title": "Education & Scholarship",
-        "impact": "Curriculum subject in Vietnamese schools; studied as exemplar of moral leadership and literary excellence",
+        "title": "Giáo dục và học thuật",
+        "impact": "Được giảng dạy trong nhà trường; là tấm gương về nhân cách, tư tưởng “lấy dân làm gốc” và giá trị văn chương.",
         "icon": "graduationCap"
       },
       {
         "id": "culture",
-        "title": "Cultural Heritage",
-        "impact": "UNESCO recognition of his works; temples and monuments dedicated to his memory throughout Vietnam",
+        "title": "Di sản văn hóa",
+        "impact": "Nhiều di tích, đền thờ và địa danh gắn với Nguyễn Trãi; tác phẩm và tư tưởng có giá trị bền vững trong đời sống văn hóa.",
         "icon": "landmark"
       },
       {
         "id": "politics",
-        "title": "Political Philosophy",
-        "impact": "His principle 'people as foundation' influenced Vietnamese governance philosophy for centuries",
+        "title": "Tư tưởng chính trị",
+        "impact": "Quan điểm nhân nghĩa và lấy dân làm gốc ảnh hưởng lâu dài đến tư duy trị quốc và quản trị xã hội.",
         "icon": "building"
       },
       {
         "id": "identity",
-        "title": "National Identity",
-        "impact": "Symbol of Vietnamese independence, cultural pride, and resistance against foreign domination",
+        "title": "Biểu tượng bản lĩnh dân tộc",
+        "impact": "Biểu tượng của ý chí độc lập, lòng tự hào văn hóa và tinh thần chống ngoại xâm của người Việt.",
         "icon": "flag"
       }
     ],
     "unesco": {
       "year": 2014,
-      "recognition": "Bình Ngô Đại Cáo inscribed in UNESCO Memory of the World Register",
-      "significance": "Recognized as documentary heritage of universal value"
+      "recognition": "“Bình Ngô đại cáo” được ghi danh vào Chương trình Ký ức Thế giới của UNESCO (Memory of the World).",
+      "significance": "Khẳng định giá trị tư tưởng và văn bản học có ý nghĩa toàn cầu."
     }
   },
   "tragedy": {
-    "title": "The Lệ Chi Viên Tragedy",
+    "title": "Bi kịch Lệ Chi Viên",
     "year": 1442,
-    "summary": "In 1442, Emperor Lê Thái Tông died suddenly at Nguyễn Trãi's estate, Lệ Chi Viên. Political rivals falsely accused Nguyễn Trãi of regicide. Despite his innocence and lifetime of service, he was executed along with three generations of his family.",
-    "vindication": "In 1464, Emperor Lê Thánh Tông thoroughly investigated and exonerated Nguyễn Trãi, restoring his honor and recognizing the injustice. His works were preserved and celebrated.",
-    "reflection": "This tragedy represents one of the darkest moments in Vietnamese history, yet also demonstrates how truth and justice ultimately prevail."
+    "summary": "Năm 1442, vua Lê Thái Tông băng hà đột ngột tại Lệ Chi Viên. Các thế lực chính trị đã vu cáo Nguyễn Trãi mưu sát. Dù cả đời tận trung vì nước, ông vẫn bị xử án oan cùng ba họ trong một thảm án đau lòng của lịch sử.",
+    "vindication": "Năm 1464, vua Lê Thánh Tông cho xét lại vụ án và minh oan cho Nguyễn Trãi, phục hồi danh dự. Tác phẩm của ông được sưu tầm, lưu truyền và trân trọng.",
+    "reflection": "Thảm án Lệ Chi Viên là vết đen lịch sử, nhưng cũng nhắc nhở rằng sự thật và công lý cuối cùng vẫn có thể được khôi phục."
   }
 }
