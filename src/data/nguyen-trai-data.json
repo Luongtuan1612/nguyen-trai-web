@@ -1,0 +1,221 @@
+{
+  "hero": {
+    "title": "Nguyễn Trãi",
+    "subtitle": "Great Thinker, Strategist, and Cultural Figure of Vietnam",
+    "years": "1380–1442",
+    "intro": "A brilliant mind who shaped Vietnamese independence, political philosophy, and literary tradition through wisdom, strategy, and unwavering dedication to the people."
+  },
+  "timeline": [
+    {
+      "id": 1,
+      "year": 1380,
+      "title": "Birth and Family",
+      "description": "Born into a scholarly family in Thăng Long (modern-day Hanoi). His father, Nguyễn Phi Khanh, was a mandarin. Raised with Confucian education and deep moral values.",
+      "category": "early"
+    },
+    {
+      "id": 2,
+      "year": 1400,
+      "title": "Education & Early Career",
+      "description": "Excelled in classical studies and passed the imperial examinations. Served briefly under the Trần dynasty before the Ming occupation of Vietnam.",
+      "category": "early"
+    },
+    {
+      "id": 3,
+      "year": 1418,
+      "title": "Joining Lê Lợi",
+      "description": "Left his position to join Lê Lợi's resistance movement in Lam Sơn. Became chief strategist and advisor, using his intellect to guide the uprising.",
+      "category": "resistance"
+    },
+    {
+      "id": 4,
+      "year": 1427,
+      "title": "Victory at Chi Lăng",
+      "description": "Strategic brilliance led to the decisive victory over Ming forces. Vietnam regained independence after 20 years of occupation.",
+      "category": "resistance"
+    },
+    {
+      "id": 5,
+      "year": 1428,
+      "title": "Bình Ngô Đại Cáo",
+      "description": "Composed the Great Proclamation upon the Pacification of the Wu, a masterpiece declaring Vietnamese sovereignty and moral justification for independence.",
+      "category": "literary"
+    },
+    {
+      "id": 6,
+      "year": 1430,
+      "title": "Political Reforms",
+      "description": "Advised Emperor Lê Thái Tổ on governance reforms emphasizing humanism, justice, and the principle 'the people are the foundation' (Lấy dân làm gốc).",
+      "category": "governance"
+    },
+    {
+      "id": 7,
+      "year": 1442,
+      "title": "Lệ Chi Viên Tragedy",
+      "description": "Falsely accused of regicide following Emperor Lê Thái Tông's death. Executed along with three generations of his family in one of Vietnam's greatest injustices.",
+      "category": "tragedy"
+    },
+    {
+      "id": 8,
+      "year": 1464,
+      "title": "Historical Vindication",
+      "description": "Posthumously exonerated by Emperor Lê Thánh Tông, who recognized the false accusations and restored his honor and legacy.",
+      "category": "legacy"
+    }
+  ],
+  "locations": [
+    {
+      "id": "lam-son",
+      "name": "Lam Sơn",
+      "region": "Thanh Hóa",
+      "coordinates": { "lat": 19.8, "lng": 105.3 },
+      "description": "Birthplace of the Lam Sơn uprising. Where Nguyễn Trãi joined Lê Lợi's resistance movement in 1418.",
+      "significance": "Strategic base for Vietnamese independence movement"
+    },
+    {
+      "id": "thang-long",
+      "name": "Thăng Long (Đông Quan)",
+      "region": "Hanoi",
+      "coordinates": { "lat": 21.03, "lng": 105.85 },
+      "description": "Capital city where Nguyễn Trãi was born and later served as chief advisor to the emperor.",
+      "significance": "Center of political and cultural life"
+    },
+    {
+      "id": "chi-lang",
+      "name": "Chi Lăng",
+      "region": "Lạng Sơn",
+      "coordinates": { "lat": 21.6, "lng": 106.6 },
+      "description": "Site of the decisive battle in 1427 where Vietnamese forces defeated the Ming army.",
+      "significance": "Victory that secured independence"
+    },
+    {
+      "id": "con-son",
+      "name": "Côn Sơn",
+      "region": "Hải Dương",
+      "coordinates": { "lat": 20.8, "lng": 106.5 },
+      "description": "Mountain retreat where Nguyễn Trãi composed poetry and philosophical writings.",
+      "significance": "Literary and spiritual sanctuary"
+    },
+    {
+      "id": "le-chi-vien",
+      "name": "Lệ Chi Viên",
+      "region": "Thanh Hóa",
+      "coordinates": { "lat": 19.9, "lng": 105.4 },
+      "description": "Imperial garden where Emperor Lê Thái Tông died unexpectedly in 1442, leading to false accusations.",
+      "significance": "Site of historical tragedy"
+    }
+  ],
+  "ideology": [
+    {
+      "id": "humanism",
+      "title": "Humanism & Compassion",
+      "icon": "heart",
+      "description": "Believed in treating people with kindness and respect, opposing harsh punishments and advocating for moral governance.",
+      "quote": "Treat the people as you would treat an infant."
+    },
+    {
+      "id": "people-foundation",
+      "title": "People as Foundation",
+      "icon": "users",
+      "description": "Core principle 'Lấy dân làm gốc' - the people are the root of the nation. Good governance must serve the people's welfare.",
+      "quote": "The people are the foundation of the nation; when the foundation is stable, the nation is at peace."
+    },
+    {
+      "id": "strategic-thinking",
+      "title": "Strategic Wisdom",
+      "icon": "brain",
+      "description": "Masterful military strategist who preferred intelligent tactics over brute force, minimizing casualties.",
+      "quote": "Use wisdom to overcome strength; use righteousness to overcome violence."
+    },
+    {
+      "id": "moral-governance",
+      "title": "Moral Governance",
+      "icon": "scale",
+      "description": "Emphasized virtue and justice in leadership. Leaders must earn respect through moral example, not fear.",
+      "quote": "A ruler who governs by virtue is like the North Star; it remains in place while all other stars revolve around it."
+    },
+    {
+      "id": "cultural-identity",
+      "title": "Cultural Pride",
+      "icon": "flag",
+      "description": "Championed Vietnamese language, literature, and identity. Wrote in both classical Chinese and Nôm script.",
+      "quote": "Our land has its own mountains and rivers, its own customs and traditions."
+    },
+    {
+      "id": "literary-excellence",
+      "title": "Literary Mastery",
+      "icon": "bookOpen",
+      "description": "Poet and scholar whose works combined aesthetic beauty with political vision, influencing generations.",
+      "quote": "Words must carry both beauty and truth."
+    }
+  ],
+  "works": [
+    {
+      "id": "binh-ngo-dai-cao",
+      "title": "Bình Ngô Đại Cáo",
+      "subtitle": "Great Proclamation upon the Pacification of the Wu",
+      "year": 1428,
+      "description": "A literary and political masterpiece declaring Vietnam's independence from Ming China. Written in classical Chinese with powerful rhetoric, it justified the resistance and affirmed Vietnamese sovereignty.",
+      "importance": "Recognized by UNESCO as a world documentary heritage. One of the most important texts in Vietnamese history.",
+      "themes": ["Independence", "Sovereignty", "Moral justification", "National identity"]
+    },
+    {
+      "id": "quoc-am-thi-tap",
+      "title": "Quốc Âm Thi Tập",
+      "subtitle": "Collection of Vernacular Poetry",
+      "year": "1430s",
+      "description": "Poetry written in Chữ Nôm (Vietnamese script), making literature accessible to common people. Combined personal emotion with social commentary.",
+      "importance": "Pioneering work in Vietnamese vernacular literature, elevating the status of the national language.",
+      "themes": ["Nature", "Human emotion", "Social commentary", "Moral philosophy"]
+    },
+    {
+      "id": "uc-trai-thi-tap",
+      "title": "Ức Trai Thi Tập",
+      "subtitle": "Collection of Ức Trai's Poetry",
+      "year": "1430s-1440s",
+      "description": "Classical Chinese poetry exploring themes of governance, ethics, nature, and personal reflection. Demonstrates mastery of literary form.",
+      "importance": "Exemplifies the fusion of Confucian philosophy with Vietnamese cultural sensibility.",
+      "themes": ["Governance", "Ethics", "Nature", "Personal reflection"]
+    }
+  ],
+  "legacy": {
+    "categories": [
+      {
+        "id": "education",
+        "title": "Education & Scholarship",
+        "impact": "Curriculum subject in Vietnamese schools; studied as exemplar of moral leadership and literary excellence",
+        "icon": "graduationCap"
+      },
+      {
+        "id": "culture",
+        "title": "Cultural Heritage",
+        "impact": "UNESCO recognition of his works; temples and monuments dedicated to his memory throughout Vietnam",
+        "icon": "landmark"
+      },
+      {
+        "id": "politics",
+        "title": "Political Philosophy",
+        "impact": "His principle 'people as foundation' influenced Vietnamese governance philosophy for centuries",
+        "icon": "building"
+      },
+      {
+        "id": "identity",
+        "title": "National Identity",
+        "impact": "Symbol of Vietnamese independence, cultural pride, and resistance against foreign domination",
+        "icon": "flag"
+      }
+    ],
+    "unesco": {
+      "year": 2014,
+      "recognition": "Bình Ngô Đại Cáo inscribed in UNESCO Memory of the World Register",
+      "significance": "Recognized as documentary heritage of universal value"
+    }
+  },
+  "tragedy": {
+    "title": "The Lệ Chi Viên Tragedy",
+    "year": 1442,
+    "summary": "In 1442, Emperor Lê Thái Tông died suddenly at Nguyễn Trãi's estate, Lệ Chi Viên. Political rivals falsely accused Nguyễn Trãi of regicide. Despite his innocence and lifetime of service, he was executed along with three generations of his family.",
+    "vindication": "In 1464, Emperor Lê Thánh Tông thoroughly investigated and exonerated Nguyễn Trãi, restoring his honor and recognizing the injustice. His works were preserved and celebrated.",
+    "reflection": "This tragedy represents one of the darkest moments in Vietnamese history, yet also demonstrates how truth and justice ultimately prevail."
+  }
+}
