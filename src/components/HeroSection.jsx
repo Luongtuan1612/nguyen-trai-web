@@ -1,13 +1,14 @@
-import { motion } from 'framer-motion';
-import { ChevronDown } from 'lucide-react';
+import { motion } from "framer-motion";
+import { ChevronDown } from "lucide-react";
+import heroImg from "../assets/images/nguyen-trai.jpg";
 
 export function HeroSection({ data, onExploreClick }) {
   const safe = data || {
-    title: 'Nguyễn Trãi',
-    subtitle: 'Danh nhân văn hoá – anh hùng dân tộc',
-    years: '1380–1442',
+    title: "Nguyễn Trãi",
+    subtitle: "Danh nhân văn hoá – anh hùng dân tộc",
+    years: "1380–1442",
     intro:
-      'Trang giới thiệu tổng quan về cuộc đời, tư tưởng và di sản của Nguyễn Trãi qua dòng thời gian, địa danh, tác phẩm và dấu ấn lịch sử.',
+      "Trang giới thiệu tổng quan về cuộc đời, tư tưởng và di sản của Nguyễn Trãi qua dòng thời gian, địa danh, tác phẩm và dấu ấn lịch sử.",
   };
 
   return (
@@ -21,32 +22,39 @@ export function HeroSection({ data, onExploreClick }) {
         }}
       />
 
-      <div className="container mx-auto px-6 md:px-12 lg:px-24 relative z-10">
-        <div className="grid md:grid-cols-2 gap-12 items-center">
-          {/* Cột trái */}
+      <div className="container mx-auto px-6 md:px-12 lg:px-24 relative z-10 pt-20 md:pt-24">
+        <div className="grid md:grid-cols-2 gap-10 md:gap-12 items-center">
+          {/* Cột trái (đẩy lên trên 30px) */}
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, ease: 'easeOut' }}
+            transition={{ duration: 0.8, ease: "easeOut" }}
+            className="-translate-y-[30px]"
           >
-            <motion.div
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ delay: 0.2, duration: 0.6 }}
-              className="inline-block px-4 py-2 bg-primary/10 rounded-full mb-6"
-            >
-              <span className="text-primary font-['Inter']">{safe.years}</span>
-            </motion.div>
-
-            <h1 className="font-['Playfair_Display'] text-6xl md:text-7xl lg:text-8xl text-primary mb-4">
+            {/* Tên ở trên */}
+            <h1 className="font-['Playfair_Display'] text-6xl md:text-7xl lg:text-8xl text-primary mb-3">
               {safe.title}
             </h1>
 
-            <h2 className="font-['Playfair_Display'] text-2xl md:text-3xl text-muted-foreground mb-6">
+            {/* Năm sinh – mất ngay dưới tên */}
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ delay: 0.15, duration: 0.6 }}
+              className="inline-flex items-center px-4 py-2 bg-primary/10 rounded-full mb-5"
+            >
+              <span className="text-primary font-['Inter'] font-medium tracking-wide">
+                {safe.years}
+              </span>
+            </motion.div>
+
+            {/* Subtitle */}
+            <h2 className="font-['Playfair_Display'] text-2xl md:text-3xl text-muted-foreground mb-5">
               {safe.subtitle}
             </h2>
 
-            <p className="font-['Inter'] text-lg leading-relaxed text-foreground/80 mb-8 max-w-xl">
+            {/* Intro */}
+            <p className="font-['Inter'] text-lg leading-relaxed text-foreground/80 mb-7 max-w-xl">
               {safe.intro}
             </p>
 
@@ -59,30 +67,34 @@ export function HeroSection({ data, onExploreClick }) {
             </button>
           </motion.div>
 
-          {/* Cột phải */}
+          {/* Cột phải (khung ảnh nhỏ lại) */}
           <motion.div
-            initial={{ opacity: 0, scale: 0.9 }}
+            initial={{ opacity: 0, scale: 0.92 }}
             animate={{ opacity: 1, scale: 1 }}
-            transition={{ delay: 0.4, duration: 0.8, ease: 'easeOut' }}
+            transition={{ delay: 0.35, duration: 0.8, ease: "easeOut" }}
             className="relative"
           >
-            <div className="relative aspect-square max-w-md mx-auto">
+            {/* giảm max-width + giảm padding khung */}
+            <div className="relative aspect-square max-w-[320px] md:max-w-[360px] mx-auto">
               <div className="absolute inset-0 border-4 border-primary/20 rounded-lg transform rotate-3" />
               <div className="absolute inset-0 border-4 border-accent/20 rounded-lg transform -rotate-3" />
 
-              <div className="relative bg-card rounded-lg p-8 shadow-2xl border-2 border-primary/30">
-                <div className="aspect-[3/4] bg-gradient-to-br from-primary/5 via-secondary/10 to-accent/5 rounded flex items-center justify-center">
-                  <svg className="w-48 h-48 text-primary/30" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={0.5}
-                      d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
-                    />
-                  </svg>
+              <div className="relative bg-card rounded-lg p-4 md:p-5 shadow-2xl border-2 border-primary/30">
+                {/* ảnh nhỏ hơn: giảm aspect + chiều cao cảm nhận */}
+                <div className="aspect-[3/4] rounded overflow-hidden relative">
+                  <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-secondary/10 to-accent/10" />
+                  <img
+                    src={heroImg}
+                    alt="Chân dung Nguyễn Trãi"
+                    className="relative z-10 h-full w-full object-cover"
+                    loading="eager"
+                  />
                 </div>
-                <div className="mt-4 text-center">
-                  <p className="font-['Playfair_Display'] text-sm text-muted-foreground">Chân dung (minh hoạ)</p>
+
+                <div className="mt-3 text-center">
+                  <p className="font-['Playfair_Display'] text-sm text-muted-foreground">
+                    Chân dung Nguyễn Trãi
+                  </p>
                 </div>
               </div>
             </div>
@@ -98,7 +110,10 @@ export function HeroSection({ data, onExploreClick }) {
         className="absolute bottom-8 left-1/2 transform -translate-x-1/2"
         aria-hidden="true"
       >
-        <motion.div animate={{ y: [0, 10, 0] }} transition={{ duration: 2, repeat: Infinity, ease: 'easeInOut' }}>
+        <motion.div
+          animate={{ y: [0, 10, 0] }}
+          transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
+        >
           <ChevronDown className="w-8 h-8 text-primary/60" />
         </motion.div>
       </motion.div>

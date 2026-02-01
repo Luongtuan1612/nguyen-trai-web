@@ -1,69 +1,62 @@
-import { useRef } from 'react';
-import { Navigation } from './components/Navigation';
-import { HeroSection } from './components/HeroSection';
-import { TimelineSection } from './components/TimelineSection';
-import { MapSection } from './components/MapSection';
-import { IdeologySection } from './components/IdeologySection';
-import { WorksSection } from './components/WorksSection';
-import { TragedySection } from './components/TragedySection';
-import { LegacySection } from './components/LegacySection';
-import { Footer } from './components/Footer';
-import data from './data/nguyen-trai-data.json';
+import { useRef } from "react";
+
+import { Navigation } from "./components/Navigation";
+import { HeroSection } from "./components/HeroSection";
+import { TimelineSection } from "./components/TimelineSection";
+import { MapSection } from "./components/MapSection";
+import { IdeologySection } from "./components/IdeologySection";
+import { WorksSection } from "./components/WorksSection";
+import { TragedySection } from "./components/TragedySection";
+import { LegacySection } from "./components/LegacySection";
+import { Footer } from "./components/Footer";
+
+import data from "./data/nguyen-trai-data.json";
 
 export default function App() {
   const timelineRef = useRef(null);
 
   const scrollToTimeline = () => {
-    if (timelineRef.current) {
-      timelineRef.current.scrollIntoView({ behavior: 'smooth' });
-    }
+    timelineRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
   };
 
   const navigationSections = [
-    { id: 'timeline', label: 'Timeline' },
-    { id: 'map', label: 'Geography' },
-    { id: 'ideology', label: 'Ideology' },
-    { id: 'works', label: 'Works' },
-    { id: 'legacy', label: 'Legacy' },
+    { id: "timeline", label: "Dòng thời gian" },
+    { id: "map", label: "Địa danh" },
+    { id: "ideology", label: "Tư tưởng" },
+    { id: "works", label: "Tác phẩm" },
+    { id: "legacy", label: "Di sản" },
   ];
 
   return (
-    <div className="min-h-screen font-['Inter'] antialiased">
-      {/* Navigation */}
+    <div className="min-h-screen font-['Inter'] antialiased bg-background text-foreground">
       <Navigation sections={navigationSections} />
 
-      {/* Hero Section */}
       <HeroSection data={data.hero} onExploreClick={scrollToTimeline} />
 
-      {/* Timeline Section */}
-      <div ref={timelineRef} id="timeline">
+      {/* Nền xen kẽ full-width */}
+      <section id="timeline" ref={timelineRef} className="bg-background">
         <TimelineSection events={data.timeline} />
-      </div>
+      </section>
 
-      {/* Map Section */}
-      <div id="map">
+      <section id="map" className="bg-card">
         <MapSection locations={data.locations} />
-      </div>
+      </section>
 
-      {/* Ideology Section */}
-      <div id="ideology">
+      <section id="ideology" className="bg-background">
         <IdeologySection ideologies={data.ideology} />
-      </div>
+      </section>
 
-      {/* Works Section */}
-      <div id="works">
+      <section id="works" className="bg-card">
         <WorksSection works={data.works} />
-      </div>
+      </section>
 
-      {/* Tragedy Section */}
+      {/* Tragedy giữ nguyên (component tự xử lý nền nếu có) */}
       <TragedySection data={data.tragedy} />
 
-      {/* Legacy Section */}
-      <div id="legacy">
+      <section id="legacy" className="bg-background">
         <LegacySection data={data.legacy} />
-      </div>
+      </section>
 
-      {/* Footer */}
       <Footer />
     </div>
   );

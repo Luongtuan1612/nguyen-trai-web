@@ -6,63 +6,176 @@
     "intro": "Một trí tuệ lớn góp phần định hình nền độc lập dân tộc, tư tưởng trị quốc và truyền thống văn chương Việt Nam bằng sự minh triết, mưu lược và tấm lòng vì dân."
   },
   "timeline": [
-    {
-      "id": 1,
-      "year": 1380,
-      "title": "Sinh ra và gia đình",
-      "description": "Sinh trong gia đình khoa bảng ở Thăng Long (Hà Nội ngày nay). Cha là Nguyễn Phi Khanh, từng làm quan. Từ nhỏ được nuôi dưỡng trong nền Nho học và các giá trị đạo đức.",
-      "category": "early"
-    },
-    {
-      "id": 2,
-      "year": 1400,
-      "title": "Học tập và bước đầu làm quan",
-      "description": "Thông minh, tinh thông kinh sử và đỗ đạt. Từng tham gia việc nước trong giai đoạn biến động trước và trong thời kỳ nhà Minh xâm lược.",
-      "category": "early"
-    },
-    {
-      "id": 3,
-      "year": 1418,
-      "title": "Theo Lê Lợi khởi nghĩa Lam Sơn",
-      "description": "Rời bỏ con đường quan lộ để đi theo Lê Lợi, tham gia khởi nghĩa Lam Sơn. Trở thành mưu sĩ và cố vấn chủ chốt, góp phần hoạch định chiến lược cho cuộc kháng chiến.",
-      "category": "resistance"
-    },
-    {
-      "id": 4,
-      "year": 1427,
-      "title": "Thắng lợi quyết định (Chi Lăng – Xương Giang)",
-      "description": "Với sách lược đúng đắn và cách đánh mưu trí, nghĩa quân giành thắng lợi quyết định trước quân Minh, chấm dứt hơn 20 năm đô hộ, mở đường cho độc lập.",
-      "category": "resistance"
-    },
-    {
-      "id": 5,
-      "year": 1428,
-      "title": "Soạn “Bình Ngô đại cáo”",
-      "description": "Thay mặt triều đình, Nguyễn Trãi thảo “Bình Ngô đại cáo” – áng văn chính luận bất hủ khẳng định chủ quyền dân tộc và chính nghĩa của cuộc kháng chiến.",
-      "category": "literary"
-    },
-    {
-      "id": 6,
-      "year": 1430,
-      "title": "Tư tưởng trị quốc và cải cách",
-      "description": "Tham gia hoạch định chính sách dưới thời Lê Thái Tổ, nhấn mạnh tư tưởng nhân nghĩa, công bằng, và nguyên lý “lấy dân làm gốc”.",
-      "category": "governance"
-    },
-    {
-      "id": 7,
-      "year": 1442,
-      "title": "Bi kịch Lệ Chi Viên",
-      "description": "Sau cái chết đột ngột của vua Lê Thái Tông, Nguyễn Trãi bị vu cáo mưu sát. Ông và ba họ bị xử án oan – một trong những vụ án bi thảm nhất lịch sử.",
-      "category": "tragedy"
-    },
-    {
-      "id": 8,
-      "year": 1464,
-      "title": "Được minh oan và phục hồi danh dự",
-      "description": "Dưới thời vua Lê Thánh Tông, vụ án được xem xét lại. Nguyễn Trãi được minh oan, danh dự được phục hồi, tác phẩm được sưu tầm và trân trọng.",
-      "category": "legacy"
-    }
-  ],
+  {
+    "id": 1,
+    "year": 1380,
+    "title": "Sinh ra và gia đình",
+    "phase": "Khởi nguyên",
+    "description": "Sinh trong gia đình khoa bảng ở Thăng Long. Cha là Nguyễn Phi Khanh – người nổi tiếng về học vấn và khí tiết. Từ nhỏ, Nguyễn Trãi được nuôi dưỡng trong nền Nho học và tinh thần trọng nghĩa, thương dân.",
+    "context": "Cuối thời Trần – xã hội nhiều biến động, triều chính suy yếu, các cuộc cải cách và tranh chấp quyền lực diễn ra liên tiếp.",
+    "quote": "Lấy nhân nghĩa làm gốc, lấy lòng dân làm trọng.",
+    "note": "Gợi ý minh hoạ: tranh/ảnh Thăng Long xưa, bản đồ cổ hoặc hoạ tiết văn vật thời trung đại.",
+    "category": "early",
+    "image": "/images/timeline/1380.jpg",
+    "imageAlt": "Minh hoạ Thăng Long thời trung đại",
+    "imageCredit": "Minh hoạ / Tư liệu sưu tầm",
+    "keyEvents": [
+      "1380: Sinh ra trong gia đình khoa bảng",
+      "Được giáo dưỡng trong nền Nho học từ nhỏ",
+      "Sớm hình thành tinh thần trọng nghĩa, thương dân"
+    ]
+  },
+  {
+    "id": 2,
+    "year": 1400,
+    "title": "Học tập và bước đầu làm quan",
+    "phase": "Khoa bảng – rèn chí",
+    "description": "Tinh thông kinh sử, trưởng thành trong môi trường trí thức. Con đường khoa cử mở ra cơ hội tham gia chính sự, nhưng cũng đặt ông trước những ngã rẽ đạo lý khi đất nước bước vào thời kỳ biến loạn.",
+    "context": "Giai đoạn giao thời, nhà Hồ lên thay nhà Trần; nguy cơ ngoại xâm gia tăng, nội bộ rạn nứt.",
+    "quote": "Chí làm trai gắn với việc nước, việc dân.",
+    "note": "Gợi ý minh hoạ: hình ảnh khoa cử, văn miếu, bút nghiên, sách vở thời xưa.",
+    "category": "formation",
+    "image": "/images/timeline/1400.jpg",
+    "imageAlt": "Minh hoạ cảnh học tập, khoa cử thời phong kiến",
+    "imageCredit": "Minh hoạ / Tư liệu sưu tầm",
+    "keyEvents": [
+      "Chuyên tâm học tập, tinh thông kinh sử",
+      "Bước đầu tham gia việc nước giữa thời cuộc biến động",
+      "Hình thành chí hướng gắn việc học với trách nhiệm xã hội"
+    ]
+  },
+  {
+    "id": 3,
+    "year": 1407,
+    "title": "Cha bị bắt – thời kỳ ẩn nhẫn chờ thời",
+    "phase": "Ly biệt & nung chí",
+    "description": "Sau khi tiễn cha bị giải sang Trung Quốc, Nguyễn Trãi quay về Đại Việt. Ông bước vào giai đoạn sống ẩn nhẫn dưới ách Minh thuộc, quan sát thời cuộc và nuôi dưỡng chí hướng cứu nước.",
+    "context": "Nhà Minh đặt ách đô hộ, nhiều sĩ phu lựa chọn ẩn cư, chờ thời cơ tham gia các phong trào kháng chiến.",
+    "quote": "Quay về lo việc lớn, chớ theo khóc than mà vô ích.",
+    "note": "Gợi ý minh hoạ: cảnh biên ải ly biệt, làng quê thời Minh thuộc.",
+    "category": "formation",
+    "image": "/images/timeline/1407.jpg",
+    "imageAlt": "Minh hoạ thời kỳ ẩn nhẫn chờ thời",
+    "imageCredit": "Minh hoạ / Tư liệu sưu tầm",
+    "keyEvents": [
+      "1407: Cha bị bắt giải sang Trung Quốc",
+      "Quyết định quay về Đại Việt",
+      "Bước vào thời kỳ sống ẩn nhẫn",
+      "Nuôi dưỡng tư tưởng cứu nước gắn với an dân"
+    ]
+  },
+  {
+    "id": 4,
+    "year": 1418,
+    "title": "Theo Lê Lợi khởi nghĩa Lam Sơn",
+    "phase": "Dấn thân cứu nước",
+    "description": "Rời bỏ con đường quan lộ, đi theo Lê Lợi. Nguyễn Trãi trở thành mưu sĩ chủ chốt, góp phần xây dựng chính nghĩa và chiến lược kháng chiến.",
+    "context": "Nhiều cuộc nổi dậy nổ ra dưới ách Minh thuộc, Lam Sơn trở thành ngọn cờ tập hợp lực lượng.",
+    "quote": "Đem đại nghĩa để thắng hung tàn.",
+    "note": "Gợi ý minh hoạ: cờ nghĩa Lam Sơn, rừng núi Thanh Hoá.",
+    "category": "resistance",
+    "image": "/images/timeline/1418.jpg",
+    "imageAlt": "Minh hoạ khí thế khởi nghĩa Lam Sơn",
+    "imageCredit": "Minh hoạ / Tư liệu sưu tầm",
+    "keyEvents": [
+      "1418: Gia nhập nghĩa quân Lam Sơn",
+      "Trở thành mưu sĩ chủ chốt",
+      "Đề xuất chiến lược kết hợp quân sự và lòng dân"
+    ]
+  },
+  {
+    "id": 5,
+    "year": 1427,
+    "title": "Thắng lợi quyết định",
+    "phase": "Kết thúc đô hộ",
+    "description": "Nghĩa quân giành thắng lợi quyết định, mở đường cho việc khôi phục nền độc lập của Đại Việt.",
+    "context": "Thời cơ chín muồi để kết thúc chiến tranh sau nhiều năm kháng chiến.",
+    "quote": "Lấy chí nhân thay cường bạo.",
+    "note": "Gợi ý minh hoạ: bản đồ chiến dịch, khí thế chiến thắng.",
+    "category": "resistance",
+    "image": "/images/timeline/1427.jpg",
+    "imageAlt": "Minh hoạ thắng lợi quyết định",
+    "imageCredit": "Minh hoạ / Tư liệu sưu tầm",
+    "keyEvents": [
+      "1427: Thắng lợi quyết định",
+      "Chấm dứt ách đô hộ",
+      "Mở đường cho triều Lê sơ"
+    ]
+  },
+  {
+    "id": 6,
+    "year": 1428,
+    "title": "Soạn Bình Ngô đại cáo",
+    "phase": "Tuyên ngôn độc lập",
+    "description": "Thảo áng văn chính luận bất hủ, khẳng định chủ quyền và tư tưởng nhân nghĩa.",
+    "context": "Triều đình cần một tuyên cáo để củng cố chính danh và đoàn kết lòng dân.",
+    "quote": "Nước Đại Việt ta từ trước, vốn xưng nền văn hiến đã lâu.",
+    "category": "literary",
+    "image": "/images/timeline/1428.jpg",
+    "imageAlt": "Minh hoạ Bình Ngô đại cáo",
+    "imageCredit": "Minh hoạ / Tư liệu sưu tầm",
+    "keyEvents": [
+      "1428: Soạn Bình Ngô đại cáo",
+      "Khẳng định chủ quyền dân tộc",
+      "Đặt nền tảng tư tưởng nhân nghĩa"
+    ]
+  },
+  {
+    "id": 7,
+    "year": 1430,
+    "title": "Tư tưởng trị quốc",
+    "phase": "Văn trị – vì dân",
+    "description": "Đề cao nhân nghĩa, công bằng và nguyên lý lấy dân làm gốc.",
+    "context": "Triều Lê sơ bước vào giai đoạn xây dựng nhà nước.",
+    "quote": "Việc nhân nghĩa cốt ở yên dân.",
+    "category": "governance",
+    "image": "/images/timeline/1430.jpg",
+    "imageAlt": "Minh hoạ tư tưởng trị quốc",
+    "imageCredit": "Minh hoạ / Tư liệu sưu tầm",
+    "keyEvents": [
+      "Tham gia hoạch định chính sách",
+      "Đề cao tư tưởng nhân nghĩa",
+      "Đặt nền tảng văn trị"
+    ]
+  },
+  {
+    "id": 8,
+    "year": 1442,
+    "title": "Bi kịch Lệ Chi Viên",
+    "phase": "Án oan lịch sử",
+    "description": "Bị vu cáo và chịu án oan – một bi kịch lớn trong lịch sử.",
+    "context": "Cung đình nhiều biến động, tranh chấp quyền lực.",
+    "quote": "Lưỡi gươm quyền lực đôi khi chém cả người ngay.",
+    "category": "tragedy",
+    "image": "/images/timeline/1442.jpg",
+    "imageAlt": "Minh hoạ bi kịch Lệ Chi Viên",
+    "imageCredit": "Minh hoạ / Tư liệu sưu tầm",
+    "keyEvents": [
+      "1442: Bi kịch Lệ Chi Viên",
+      "Xảy ra án oan nghiêm trọng",
+      "Để lại dấu hỏi về công lý"
+    ]
+  },
+  {
+    "id": 9,
+    "year": 1464,
+    "title": "Được minh oan",
+    "phase": "Tôn vinh hậu thế",
+    "description": "Được minh oan, phục hồi danh dự và tôn vinh như di sản văn hoá.",
+    "context": "Văn hoá – giáo dục được coi trọng, lịch sử được hệ thống hoá.",
+    "quote": "Ức Trai tâm thượng quang khuê tảo.",
+    "category": "legacy",
+    "image": "/images/timeline/1464.jpg",
+    "imageAlt": "Minh hoạ minh oan và tôn vinh",
+    "imageCredit": "Minh hoạ / Tư liệu sưu tầm",
+    "keyEvents": [
+      "1464: Minh oan",
+      "Phục hồi danh dự",
+      "Tác phẩm được lưu truyền rộng rãi"
+    ]
+  }
+]
+,
   "locations": [
     {
       "id": "lam-son",
